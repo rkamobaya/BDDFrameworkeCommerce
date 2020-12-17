@@ -1,0 +1,26 @@
+-------------------------------------------------------------------------------
+Test set: TestRunner.testRun
+-------------------------------------------------------------------------------
+Tests run: 66, Failures: 6, Errors: 0, Skipped: 5, Time elapsed: 168.682 s <<< FAILURE! - in TestRunner.testRun
+Then page title should be "Dashboard / nopCommerce administration"(| admin@yourstore.com | admin123 |)  Time elapsed: 0.003 s  <<< FAILURE!
+java.lang.AssertionError
+
+| admin@yourstore.com | admin123 |  Time elapsed: 0.003 s  <<< FAILURE!
+java.lang.AssertionError
+
+Then User can view confirmation massage "The new customer has been added successfully."(Scenario: Add a new customer)  Time elapsed: 0 s  <<< FAILURE!
+org.junit.ComparisonFailure: 
+expected:<[]The new customer has...> but was:<[×
+]The new customer has...>
+
+Scenario: Add a new customer  Time elapsed: 0 s  <<< FAILURE!
+org.junit.ComparisonFailure: 
+expected:<[]The new customer has...> but was:<[×
+]The new customer has...>
+
+Then User should found Name in the Search table(Scenario: Search Customer by Name)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: expected:<true> but was:<false>
+
+Scenario: Search Customer by Name  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: expected:<true> but was:<false>
+
